@@ -1,0 +1,15 @@
+h1{
+    font-size:40px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    display: flex;
+    background: linear-gradient(45deg,#bf57c2,#4dc2d7, hwb(73 32% 29%), #ffcc00);
+  background-size: 300% 300%;
+  animation: gradientBG 10s ease infinite;
+  justify-content: center;
+}
+
+h2{
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

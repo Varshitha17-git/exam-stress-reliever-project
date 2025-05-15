@@ -1,0 +1,88 @@
+/* General container styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.chat-box {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: #0c1317;
+}
+
+.input-container {
+    display: flex;
+    padding: 10px;
+    background-color: #0c1317;
+    border-top: 1px solid #2b2b2b;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: #1e272e;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+button {
+    background-color: #25d366; /* WhatsApp green */
+    border: none;
+    margin-left: 10px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* User and bot messages */
+.message {
+    max-width: 70%;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    line-height: 1.5;
+    font-size: 15px;
+    position: relative;
+}
+
+/* User message on the right */
+.user-message {
+    background-color: #075e54;
+    color: white;
+    margin-left: auto;
+    text-align: left;
+    border-top-right-radius: 0;
+}
+
+/* Bot message on the left */
+.bot-message {
+    background-color: #202c33;
+    color: #e5e5e5;
+    margin-right: auto;
+    text-align: left;
+    border-top-left-radius: 0;
+}
+
+/* Timestamps */
+.timestamp {
+    display: block;
+    font-size: 12px;
+    color: #b0b3b8;
+    margin-top: 5px;
+    text-align: right;
+}
